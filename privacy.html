@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité - VolleyHub</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <img src="assets/logo.png" alt="VolleyHub" class="nav-logo" />
+        VolleyHub
+      </a>
+      <ul class="nav-links">
+        <li><a href="/">Accueil</a></li>
+        <li><a href="terms.html" data-i18n="nav.terms">Conditions</a></li>
+        <li><button id="lang-switch" class="lang-btn">EN</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="legal">
+    <h1 data-legal="title">Politique de confidentialité</h1>
+    <p class="legal-date" data-legal="date">Dernière mise à jour : 02 avril 2026</p>
+    <div data-legal="body"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="" class="footer-logo" />
+        VolleyHub &copy; 2026
+      </div>
+      <ul class="footer-links">
+        <li><a href="privacy.html" data-i18n="footer.privacy">Confidentialité</a></li>
+        <li><a href="terms.html" data-i18n="footer.terms">Conditions</a></li>
+        <li><a href="mailto:contact@volleyhub.io" data-i18n="footer.contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="legal-i18n.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', () => applyLegalI18n('privacy'));</script>
+  <script>
+    // Re-apply legal content when language changes
+    const origSetLang = window.setLang;
+    if (origSetLang) {
+      window.setLang = function(lang) { origSetLang(lang); applyLegalI18n('privacy'); };
+    }
+  </script>
+</body>
+</html>

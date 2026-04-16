@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VolleyHub - Trouve ton match, joue à fond</title>
+  <meta name="description" content="VolleyHub est l'application mobile pour organiser et rejoindre des matchs et tournois de volley-ball près de chez toi." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <img src="assets/logo.png" alt="VolleyHub" class="nav-logo" />
+        VolleyHub
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features" data-i18n="nav.features">Fonctionnalités</a></li>
+        <li><a href="privacy.html" data-i18n="nav.privacy">Confidentialité</a></li>
+        <li><a href="terms.html" data-i18n="nav.terms">Conditions</a></li>
+        <li><button id="lang-switch" class="lang-btn">EN</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="assets/logo.png" alt="VolleyHub" class="hero-logo" />
+    <h1>VolleyHub</h1>
+    <p class="hero-tagline" data-i18n="hero.tagline">Trouve ton match, joue à fond.</p>
+    <div class="hero-cta">
+      <a href="#" class="btn btn-primary">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+        <span data-i18n="hero.appstore">App Store</span>
+      </a>
+      <a href="#" class="btn btn-outline">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.3 13l2.398-3.492zM5.864 1.143L16.8 7.476 14.498 9.778 5.864 1.143z"/></svg>
+        <span data-i18n="hero.googleplay">Google Play</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <h2 class="features-title" data-i18n="features.title">Tout pour le volley</h2>
+    <p class="features-subtitle" data-i18n="features.subtitle">Organise, rejoins et vis tes matchs comme jamais.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 20l-5.447-2.724A1 1 0 0 1 3 16.382V5.618a1 1 0 0 1 1.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0 0 21 18.382V7.618a1 1 0 0 0-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+        </div>
+        <h3 data-i18n="features.map.title">Carte interactive</h3>
+        <p data-i18n="features.map.desc">Visualise tous les matchs et tournois autour de toi sur une carte en temps réel. Filtre par événements à venir ou en cours, et repère en un clin d'oeil les parties qui cherchent des joueurs.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20"/><path d="M12 2a14.5 14.5 0 0 1 0 20"/><path d="M2 12h20"/></svg>
+        </div>
+        <h3 data-i18n="features.matchOnly.title">Matchs</h3>
+        <p data-i18n="features.matchOnly.desc">Crée un match en quelques secondes : choisis le type de volley (classique, beach ou green), le nombre de joueurs (2v2, 4v4, 6v6...), le nombre de sets et la règle de score (point sec ou 2 points d'écart). Compose tes équipes, joue et enregistre les scores set par set.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        </div>
+        <h3 data-i18n="features.tournamentOnly.title">Tournois</h3>
+        <p data-i18n="features.tournamentOnly.desc">Organise des tournois complets : élimination directe, poules + finales ou round-robin. Configure le nombre d'équipes (2 à 16), la taille par équipe, les points par match et le nombre de terrains en parallèle. L'organisateur lance le bracket quand il est prêt. Suis les matchs en direct terrain par terrain : chaque joueur renseigne et verrouille son score, et les matchs suivants s'enchaînent automatiquement.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3 data-i18n="features.teams.title">Gestion des équipes</h3>
+        <p data-i18n="features.teams.desc">Rejoins une équipe en un tap sur un emplacement libre. Les compositions se mettent à jour en temps réel pour tous les joueurs. Les équipes se verrouillent automatiquement dès que le match démarre pour éviter les changements de dernière minute.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3 data-i18n="features.chat.title">Chat de groupe</h3>
+        <p data-i18n="features.chat.desc">Chaque événement a son propre chat intégré. Coordonne-toi avec les autres joueurs avant et pendant le match. L'organisateur peut modérer les messages et muter les utilisateurs si nécessaire.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        </div>
+        <h3 data-i18n="features.notifs.title">Notifications intelligentes</h3>
+        <p data-i18n="features.notifs.desc">Reçois des alertes push et in-app pour tout ce qui compte : un joueur rejoint ton match, ton événement commence dans 30 minutes, un score est enregistré, une demande de connexion est acceptée, et bien plus. Plus de 15 types de notifications pour ne rien manquer.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3 data-i18n="features.profile.title">Profil & Statistiques</h3>
+        <p data-i18n="features.profile.desc">Renseigne ton niveau (débutant, intermédiaire, confirmé), ton poste préféré (passeur, libéro, attaquant...), ton club et ta ligue. Suis tes statistiques personnelles pour les matchs et les tournois : parties jouées, victoires, défaites, taux de victoire et série en cours. Les autres joueurs voient ton profil et tes stats avant de jouer avec toi.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6"/><path d="M22 11h-6"/></svg>
+        </div>
+        <h3 data-i18n="features.social.title">Réseau social sportif</h3>
+        <p data-i18n="features.social.desc">Connecte-toi avec d'autres joueurs, suis leur activité et invite-les directement dans tes événements. Accepte ou décline les demandes de connexion depuis l'onglet Notifications.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+        </div>
+        <h3 data-i18n="features.renew.title">Renouveler un match</h3>
+        <p data-i18n="features.renew.desc">Match terminé et tu veux remettre ça ? Un bouton Renouveler apparaît après l'enregistrement des scores. Il recrée automatiquement le même événement avec les mêmes joueurs, le même terrain et les mêmes règles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2 data-i18n="cta.title">Prêt à jouer ?</h2>
+    <p data-i18n="cta.subtitle">Télécharge VolleyHub et rejoins ta prochaine partie.</p>
+    <div class="hero-cta">
+      <a href="#" class="btn btn-primary" data-i18n="cta.button">Télécharger l'app</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="" class="footer-logo" />
+        VolleyHub &copy; 2026
+      </div>
+      <ul class="footer-links">
+        <li><a href="privacy.html" data-i18n="footer.privacy">Politique de confidentialité</a></li>
+        <li><a href="terms.html" data-i18n="footer.terms">Conditions d'utilisation</a></li>
+        <li><a href="mailto:contact@volleyhub.io" data-i18n="footer.contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
