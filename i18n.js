@@ -125,4 +125,22 @@ document.addEventListener('DOMContentLoaded', () => {
       setLang(current === 'fr' ? 'en' : 'fr');
     });
   }
+
+  // Mobile burger menu
+  const burger = document.getElementById('nav-burger');
+  const navLinks = document.getElementById('nav-links');
+  if (burger && navLinks) {
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('open');
+      navLinks.classList.toggle('open');
+    });
+
+    // Close menu when a link is tapped
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        burger.classList.remove('open');
+        navLinks.classList.remove('open');
+      });
+    });
+  }
 });
