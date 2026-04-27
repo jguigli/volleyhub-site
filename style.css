@@ -80,10 +80,17 @@ a:hover {
   border-radius: 10px;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .nav-links {
   display: flex;
   gap: 24px;
   list-style: none;
+  align-items: center;
 }
 
 .nav-links a {
@@ -464,6 +471,10 @@ a:hover {
   .features-title { font-size: 28px; }
   .stats-inner { flex-direction: column; gap: 32px; }
   .footer-inner { flex-direction: column; text-align: center; }
+
+  .nav-inner {
+    position: static;
+  }
 
   .nav-burger {
     display: flex;
