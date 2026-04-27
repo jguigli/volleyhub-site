@@ -8,7 +8,6 @@ const translations = {
     // Hero
     'hero.tagline': 'Trouve ton match, joue à fond.',
     'hero.appstore': 'App Store',
-    'hero.googleplay': 'Google Play',
 
     // Features
     'features.title': 'Tout pour le volley',
@@ -52,7 +51,6 @@ const translations = {
     // Hero
     'hero.tagline': 'Find your game, play your best.',
     'hero.appstore': 'App Store',
-    'hero.googleplay': 'Google Play',
 
     // Features
     'features.title': 'Everything for volleyball',
