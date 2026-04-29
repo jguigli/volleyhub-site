@@ -1,7 +1,7 @@
 const legalTranslations = {
   fr: {
     privacyTitle: 'Politique de confidentialité',
-    privacyDate: 'Dernière mise à jour : 02 avril 2026',
+    privacyDate: 'Dernière mise à jour : 29 avril 2026',
     privacyBody: `
 <p>Cette politique de confidentialité explique comment l'application mobile <strong>VolleyHub</strong> (ci-après "l'Application"), ainsi que ses services backend associés, collectent, utilisent, stockent et protègent vos données personnelles.</p>
 <p>En utilisant l'Application, vous acceptez les pratiques décrites dans ce document.</p>
@@ -53,7 +53,7 @@ const legalTranslations = {
 <p>Vos données peuvent être accessibles :</p>
 <ul>
   <li>Aux membres autorisés de l'équipe exploitante.</li>
-  <li>À nos sous-traitants techniques (hébergement, base de données, cache, notifications push), strictement dans la limite nécessaire au service.</li>
+  <li>À nos sous-traitants techniques (hébergement, base de données, cache, notifications push, suivi des erreurs, emails transactionnels), strictement dans la limite nécessaire au service.</li>
   <li>Aux autres utilisateurs, uniquement pour les données que vous rendez visibles dans l'Application (profil, participation, messages de chat selon contexte).</li>
 </ul>
 <p><strong>Nous ne vendons pas vos données personnelles.</strong></p>
@@ -108,7 +108,7 @@ const legalTranslations = {
 </ul>`,
 
     termsTitle: "Conditions d'utilisation",
-    termsDate: 'Dernière mise à jour : 02 avril 2026',
+    termsDate: 'Dernière mise à jour : 29 avril 2026',
     termsBody: `
 <p>Les présentes Conditions d'utilisation (ci-après "Conditions") régissent votre accès et votre utilisation de l'application mobile <strong>VolleyHub</strong> et des services associés (API, notifications, chat, tournois), ci-après le "Service".</p>
 <p>En créant un compte ou en utilisant le Service, vous acceptez les présentes Conditions.</p>
@@ -209,7 +209,7 @@ const legalTranslations = {
 
   en: {
     privacyTitle: 'Privacy Policy',
-    privacyDate: 'Last updated: April 2, 2026',
+    privacyDate: 'Last updated: April 29, 2026',
     privacyBody: `
 <p>This privacy policy explains how the mobile application <strong>VolleyHub</strong> (hereinafter "the Application"), along with its associated backend services, collect, use, store and protect your personal data.</p>
 <p>By using the Application, you agree to the practices described in this document.</p>
@@ -261,7 +261,7 @@ const legalTranslations = {
 <p>Your data may be accessible to:</p>
 <ul>
   <li>Authorized members of the operating team.</li>
-  <li>Our technical subcontractors (hosting, database, cache, push notifications), strictly to the extent necessary for the service.</li>
+  <li>Our technical subcontractors (hosting, database, cache, push notifications, error tracking, transactional emails), strictly to the extent necessary for the service.</li>
   <li>Other users, only for data you make visible in the Application (profile, participation, chat messages in context).</li>
 </ul>
 <p><strong>We do not sell your personal data.</strong></p>
@@ -316,7 +316,7 @@ const legalTranslations = {
 </ul>`,
 
     termsTitle: 'Terms of Use',
-    termsDate: 'Last updated: April 2, 2026',
+    termsDate: 'Last updated: April 29, 2026',
     termsBody: `
 <p>These Terms of Use (hereinafter "Terms") govern your access to and use of the mobile application <strong>VolleyHub</strong> and associated services (API, notifications, chat, tournaments), hereinafter the "Service".</p>
 <p>By creating an account or using the Service, you agree to these Terms.</p>
