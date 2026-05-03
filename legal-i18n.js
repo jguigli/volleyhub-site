@@ -1,7 +1,7 @@
 const legalTranslations = {
   fr: {
     privacyTitle: 'Politique de confidentialité',
-    privacyDate: 'Dernière mise à jour : 02 mai 2026',
+    privacyDate: 'Dernière mise à jour : 03 mai 2026',
     privacyBody: `
 <p>Cette politique de confidentialité explique comment l'application mobile <strong>VolleyHub</strong> (ci-après "l'Application"), ainsi que ses services backend associés, collectent, utilisent, stockent et protègent vos données personnelles.</p>
 <p>En utilisant l'Application, vous acceptez les pratiques décrites dans ce document.</p>
@@ -24,6 +24,7 @@ const legalTranslations = {
   <li><strong>Données de communication</strong> : messages de chat liés aux matchs, demandes de connexion/follow.</li>
   <li><strong>Données techniques</strong> : identifiants de session, jetons d'authentification, journaux techniques, informations de sécurité.</li>
   <li><strong>Données de notifications</strong> : token de notification push (ex : FCM) pour vous envoyer des alertes utiles.</li>
+  <li><strong>Données de modération</strong> : utilisateurs bloqués, signalements (raison, contenu visé, contexte) que vous soumettez pour assurer la sécurité de la communauté.</li>
 </ul>
 
 <h2>3. Finalités et bases légales</h2>
@@ -34,6 +35,7 @@ const legalTranslations = {
   <li>Afficher du contenu personnalisé (suggestions de matchs selon distance/niveau).</li>
   <li>Permettre les interactions sociales (chat, invitations, connexions).</li>
   <li>Envoyer des notifications liées au service (ex : un joueur rejoint, match presque complet).</li>
+  <li>Modérer les contenus et comptes (gestion des signalements et des blocages, application des règles communautaires).</li>
   <li>Assurer la sécurité, prévenir la fraude et maintenir la stabilité technique.</li>
   <li>Respecter nos obligations légales.</li>
 </ul>
@@ -109,7 +111,7 @@ const legalTranslations = {
 </ul>`,
 
     termsTitle: "Conditions d'utilisation",
-    termsDate: 'Dernière mise à jour : 02 mai 2026',
+    termsDate: 'Dernière mise à jour : 03 mai 2026',
     termsBody: `
 <p>Les présentes Conditions d'utilisation (ci-après "Conditions") régissent votre accès et votre utilisation de l'application mobile <strong>VolleyHub</strong> et des services associés (API, notifications, chat, tournois), ci-après le "Service".</p>
 <p>En créant un compte ou en utilisant le Service, vous acceptez les présentes Conditions.</p>
@@ -148,6 +150,7 @@ const legalTranslations = {
   <li>Contourner les mesures de sécurité ou tenter d'accéder sans droit à des données.</li>
   <li>Utiliser le Service à des fins frauduleuses ou commerciales non autorisées.</li>
 </ul>
+<p><strong>Outils de modération à votre disposition</strong> : vous pouvez bloquer un autre utilisateur depuis son profil ou un message de chat (le contenu de l'utilisateur bloqué sera masqué), et signaler un utilisateur ou un message qui vous semble inapproprié. Les signalements sont examinés par l'équipe de modération.</p>
 <p>Nous pouvons modérer, suspendre ou supprimer des contenus/comptes en cas de non-respect.</p>
 
 <h2>5. Matchs, tournois et responsabilités sportives</h2>
@@ -210,7 +213,7 @@ const legalTranslations = {
 
   en: {
     privacyTitle: 'Privacy Policy',
-    privacyDate: 'Last updated: May 2, 2026',
+    privacyDate: 'Last updated: May 3, 2026',
     privacyBody: `
 <p>This privacy policy explains how the mobile application <strong>VolleyHub</strong> (hereinafter "the Application"), along with its associated backend services, collect, use, store and protect your personal data.</p>
 <p>By using the Application, you agree to the practices described in this document.</p>
@@ -233,6 +236,7 @@ const legalTranslations = {
   <li><strong>Communication data</strong>: chat messages related to matches, connection/follow requests.</li>
   <li><strong>Technical data</strong>: session identifiers, authentication tokens, technical logs, security information.</li>
   <li><strong>Notification data</strong>: push notification token (e.g. FCM) to send you useful alerts.</li>
+  <li><strong>Moderation data</strong>: blocked users, reports (reason, target, context) you submit to keep the community safe.</li>
 </ul>
 
 <h2>3. Purposes and Legal Bases</h2>
@@ -243,6 +247,7 @@ const legalTranslations = {
   <li>Display personalized content (match suggestions by distance/level).</li>
   <li>Enable social interactions (chat, invitations, connections).</li>
   <li>Send service-related notifications (e.g. a player joined, match almost full).</li>
+  <li>Moderate content and accounts (handling reports and blocks, enforcing community rules).</li>
   <li>Ensure security, prevent fraud and maintain technical stability.</li>
   <li>Comply with our legal obligations.</li>
 </ul>
@@ -318,7 +323,7 @@ const legalTranslations = {
 </ul>`,
 
     termsTitle: 'Terms of Use',
-    termsDate: 'Last updated: May 2, 2026',
+    termsDate: 'Last updated: May 3, 2026',
     termsBody: `
 <p>These Terms of Use (hereinafter "Terms") govern your access to and use of the mobile application <strong>VolleyHub</strong> and associated services (API, notifications, chat, tournaments), hereinafter the "Service".</p>
 <p>By creating an account or using the Service, you agree to these Terms.</p>
@@ -357,6 +362,7 @@ const legalTranslations = {
   <li>Bypass security measures or attempt unauthorized access to data.</li>
   <li>Use the Service for fraudulent or unauthorized commercial purposes.</li>
 </ul>
+<p><strong>Moderation tools available to you</strong>: you can block another user from their profile or a chat message (their content will be hidden from you), and report a user or message you find inappropriate. Reports are reviewed by the moderation team.</p>
 <p>We may moderate, suspend or delete content/accounts in case of non-compliance.</p>
 
 <h2>5. Matches, Tournaments and Sports Liability</h2>
